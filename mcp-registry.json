@@ -3,40 +3,34 @@
     {
       "id": "serena",
       "name": "Serena",
-      "description": "A powerful coding agent toolkit providing semantic retrieval and editing capabilities.",
+      "description": "Python-based coding agent toolkit (Community Version)",
       "version": "1.0.0",
       "repository": {
         "url": "https://github.com/oraios/serena"
       },
       "homepage": "https://github.com/oraios/serena",
-      "license": "MIT",
       "installation": {
         "command": "uvx",
         "args": ["--from", "git+https://github.com/oraios/serena", "serena-mcp-server"]
       },
-      "capabilities": ["tools", "resources", "prompts"],
-      "tags": ["coding", "agent", "python", "semantic"]
+      "capabilities": ["tools", "resources", "prompts"]
     },
     {
       "id": "figma-developer",
       "name": "Figma Context MCP",
-      "description": "MCP server to provide Figma layout information to AI coding agents.",
+      "description": "Figma integration for developers (Community Version)",
       "version": "0.6.4",
       "repository": {
         "url": "https://github.com/GLips/Figma-Context-MCP"
       },
-      "homepage": "https://www.framelink.ai/",
-      "license": "MIT",
       "installation": {
         "npm": "figma-developer-mcp"
       },
-      "capabilities": ["tools", "resources"],
-      "tags": ["figma", "design", "css"]
+      "capabilities": ["tools", "resources"]
     }
   ],
   "metadata": {
-    "version": "0.1",
-    "updated": "2026-01-29T00:00:00Z",
-    "count": 2
+    "version": "1.0",
+    "updated": "2026-01-29"
   }
 }
