@@ -2,54 +2,36 @@
   "servers": [
     {
       "id": "serena",
-      "name": "Serena MCP Server",
-      "description": "A versatile MCP server for Serena integration",
+      "name": "Serena",
+      "description": "A powerful coding agent toolkit providing semantic retrieval and editing capabilities.",
       "version": "1.0.0",
-      "repository": "https://github.com/example/serena-mcp-server",
-      "homepage": "https://serena.example.com",
+      "repository": {
+        "url": "https://github.com/oraios/serena"
+      },
+      "homepage": "https://github.com/oraios/serena",
       "license": "MIT",
-      "author": {
-        "name": "Serena Team",
-        "email": "team@serena.example.com"
-      },
       "installation": {
-        "npm": "serena-mcp-server"
+        "command": "uvx",
+        "args": ["--from", "git+https://github.com/oraios/serena", "serena-mcp-server"]
       },
-      "capabilities": [
-        "resources",
-        "tools",
-        "prompts"
-      ],
-      "tags": [
-        "serena",
-        "integration",
-        "productivity"
-      ]
+      "capabilities": ["tools", "resources", "prompts"],
+      "tags": ["coding", "agent", "python", "semantic"]
     },
     {
-      "id": "figma",
-      "name": "Figma MCP Server",
-      "description": "MCP server for Figma design tool integration",
-      "version": "2.1.0",
-      "repository": "https://github.com/example/figma-mcp-server",
-      "homepage": "https://figma.example.com",
-      "license": "Apache-2.0",
-      "author": {
-        "name": "Figma Integration Team",
-        "email": "support@figma.example.com"
+      "id": "figma-developer",
+      "name": "Figma Context MCP",
+      "description": "MCP server to provide Figma layout information to AI coding agents.",
+      "version": "0.6.4",
+      "repository": {
+        "url": "https://github.com/GLips/Figma-Context-MCP"
       },
+      "homepage": "https://www.framelink.ai/",
+      "license": "MIT",
       "installation": {
-        "npm": "figma-mcp-server"
+        "npm": "figma-developer-mcp"
       },
-      "capabilities": [
-        "resources",
-        "tools"
-      ],
-      "tags": [
-        "figma",
-        "design",
-        "collaboration"
-      ]
+      "capabilities": ["tools", "resources"],
+      "tags": ["figma", "design", "css"]
     }
   ],
   "metadata": {
