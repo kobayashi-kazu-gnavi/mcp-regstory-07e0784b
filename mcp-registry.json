@@ -1,0 +1,60 @@
+{
+  "servers": [
+    {
+      "id": "serena",
+      "name": "Serena MCP Server",
+      "description": "A versatile MCP server for Serena integration",
+      "version": "1.0.0",
+      "repository": "https://github.com/example/serena-mcp-server",
+      "homepage": "https://serena.example.com",
+      "license": "MIT",
+      "author": {
+        "name": "Serena Team",
+        "email": "team@serena.example.com"
+      },
+      "installation": {
+        "npm": "serena-mcp-server"
+      },
+      "capabilities": [
+        "resources",
+        "tools",
+        "prompts"
+      ],
+      "tags": [
+        "serena",
+        "integration",
+        "productivity"
+      ]
+    },
+    {
+      "id": "figma",
+      "name": "Figma MCP Server",
+      "description": "MCP server for Figma design tool integration",
+      "version": "2.1.0",
+      "repository": "https://github.com/example/figma-mcp-server",
+      "homepage": "https://figma.example.com",
+      "license": "Apache-2.0",
+      "author": {
+        "name": "Figma Integration Team",
+        "email": "support@figma.example.com"
+      },
+      "installation": {
+        "npm": "figma-mcp-server"
+      },
+      "capabilities": [
+        "resources",
+        "tools"
+      ],
+      "tags": [
+        "figma",
+        "design",
+        "collaboration"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "0.1",
+    "updated": "2026-01-29T00:00:00Z",
+    "count": 2
+  }
+}
