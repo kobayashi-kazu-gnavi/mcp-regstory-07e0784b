@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - copilot/create-mcp-registry
   workflow_dispatch:
 
 permissions:
